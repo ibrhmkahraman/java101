@@ -7,3 +7,5 @@
 5. [taksimetre](https://github.com/ibrhmkahraman/java101/blob/main/taksimetre)
 6. [daire alanı ve çevresinin bulunması](https://github.com/ibrhmkahraman/java101/blob/main/daireAlaniVeCevresi)
 7. [daire diliminin alanının bulunması](https://github.com/ibrhmkahraman/java101/blob/main/daireDilimininAlani)
+8. [Vücut Kitle İndeksi Hesaplama](https://github.com/ibrhmkahraman/java101/blob/main/vucutKitleIndeksi)
+9. [Manav Kasa Uygulaması](https://github.com/ibrhmkahraman/java101/blob/main/manavKasa)
