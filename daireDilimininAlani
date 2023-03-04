@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class daireDilimininAlani {
+    public static void main(String[] args) {
+        int r, aci;
+        double pi = 3.14, alan;
+
+        Scanner inp = new Scanner(System.in);
+        System.out.println("dairenin yarıçapını giriniz : ");
+        r = inp.nextInt();
+        System.out.println("dairenin merkez açısının ölçüsünü giriniz : ");
+        aci = inp.nextInt();
+
+        alan = (pi * (r*r) * aci) / 360;
+        System.out.println("Yarıçapı ve merkez açısının ölçüsü girilen daire diliminin alanı : " + alan);
+    }
+}
