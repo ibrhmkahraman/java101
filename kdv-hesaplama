@@ -1,19 +1,21 @@
 import java.util.Scanner;
 public class kdvHesaplama {
     public static void main(String[] args) {
-        double sayi, kdv, kdvDahil;
+        double tutar, kdvTutar, kdvDahil, kdvOran;
 
         Scanner inp = new Scanner(System.in);
 
         System.out.println("kdv'siz tutarı giriniz : ");
-        
-        sayi = inp.nextDouble();
+        tutar = inp.nextDouble();
 
-        kdv = sayi * 0.18;
+        kdvOran = (tutar <= 1000.0) && (tutar >= 0) ? 0.18 : 0.08;
 
-        kdvDahil = sayi * 1.18 ;
+        kdvTutar = tutar * kdvOran;
 
-        System.out.println("kdv tutarı : " + kdv  );
+        kdvDahil = tutar + kdvTutar ;
+
+        System.out.println("kdv oranı : " + kdvOran);
+        System.out.println("kdv tutarı : " + kdvTutar  );
         System.out.println("kdv dahil tutar : " + kdvDahil);
     }
 }
