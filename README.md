@@ -5,3 +5,5 @@
 3. [hipotenüs hesaplama](https://github.com/ibrhmkahraman/java101/blob/main/hipotenusBulma)
 4. [üçgen alan hesaplaam](https://github.com/ibrhmkahraman/java101/blob/main/ucgenAlanHesaplama)
 5. [taksimetre](https://github.com/ibrhmkahraman/java101/blob/main/taksimetre)
+6. [daire alanı ve çevresinin bulunması](https://github.com/ibrhmkahraman/java101/blob/main/daireAlaniVeCevresi)
+7. [daire diliminin alanının bulunması](https://github.com/ibrhmkahraman/java101/blob/main/daireDilimininAlani)
