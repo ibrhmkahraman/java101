@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class taksimetre {
+    public static void main(String[] args) {
+        int km ;
+        double acilisUcreti = 10.0, kmUcreti = 2.20, ucret;
+
+        Scanner inp = new Scanner(System.in);
+        System.out.println("gidilen kilometreyi giriniz : ");
+        km = inp.nextInt();
+
+        ucret = acilisUcreti + (km * kmUcreti);
+
+        ucret = ucret <= 20 ? 20 : ucret;
+
+        System.out.println("ödenecek ücret : " + ucret);
+
+    }
+}
