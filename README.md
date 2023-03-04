@@ -11,4 +11,4 @@
 8. [Vücut Kitle İndeksi Hesaplama](https://github.com/ibrhmkahraman/java101/blob/main/vucutKitleIndeksi)
 9. [Manav Kasa Uygulaması](https://github.com/ibrhmkahraman/java101/blob/main/manavKasa)
 ### Koşullu İfadeler ve Kod Blokları ödevleri
-1.
+1. [Hesap Makinesi](https://github.com/ibrhmkahraman/java101/blob/main/hesapMakinesi)
