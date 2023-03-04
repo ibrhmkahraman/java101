@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class daireAlaniVeCevresi {
+    public static void main(String[] args) {
+        int r;
+        double alan, cevre, pi = 3.14;
+
+        Scanner inp = new Scanner(System.in);
+        System.out.println("dairenin yarıçapını giriniz : ");
+
+        r = inp.nextInt();
+
+        alan = pi * r *r ;
+        System.out.println("dairenin alanı : " + alan);
+
+        cevre = 2 * pi * r;
+        System.out.println("dairenin çevresi : " + cevre);
+    }
+}
