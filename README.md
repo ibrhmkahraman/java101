@@ -1,2 +1,2 @@
 # java101
-patika java101
+[https://www.patika.dev/] patika java101
