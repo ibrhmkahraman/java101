@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class vucutKitleIndeksi {
+    public static void main(String[] args) {
+        int kilo;
+        double boy, indeks;
+
+        Scanner inp = new Scanner(System.in);
+
+        System.out.println("kilonuzu KG cinsinden giriniz : ");
+        kilo = inp.nextInt();
+
+        System.out.println("boyunuz METRE cinsinden giriniz : ");
+        boy = inp.nextDouble();
+
+        indeks = kilo / (boy * boy);
+        System.out.println("vücut kitle indeksiniz : " + indeks);
+        //Kilo (kg) / Boy(m) * Boy(m)
+    }
+}
