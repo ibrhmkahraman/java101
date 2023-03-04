@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class kdvHesaplama {
+    public static void main(String[] args) {
+        double sayi, kdv, kdvDahil;
+
+        Scanner inp = new Scanner(System.in);
+
+        System.out.println("kdv'siz tutarı giriniz : ");
+        
+        sayi = inp.nextDouble();
+
+        kdv = sayi * 0.18;
+
+        kdvDahil = sayi * 1.18 ;
+
+        System.out.println("kdv tutarı : " + kdv  );
+        System.out.println("kdv dahil tutar : " + kdvDahil);
+    }
+}
