@@ -1,0 +1,186 @@
+import java.util.Scanner;
+
+public class burcBulma {
+    public static void main(String[] args) {
+        int kulAy, kulGun;
+
+        Scanner inp = new Scanner(System.in);
+
+        System.out.println("DOĞDUĞUNUZ AYI GİRİNİZ : " +
+                "\nOcak için-1      Şubat için-2        Mart için-3     Nisan için-4        Mayıs için-5        Haziran için-6\n" +
+                "Temmuz için-7      Ağustos için-8      Eylül için-9        Ekim için-10        Kasım için-11       Aralık için 12");
+        kulAy = inp.nextInt();
+
+        System.out.println("doğduğunuz günü giriniz : ");
+        kulGun = inp.nextInt();
+
+        /*
+        -----Ocak-----
+        1 <= oğlak <= 21
+        21 < kova <= 31
+        */
+         if(kulAy == 1){
+            if (1<= kulGun && kulGun <=21){
+                System.out.println("Oğlak burcu");
+            } else if (21 < kulGun && kulGun <= 31) {
+                System.out.println("Kova burcu");
+            }else {
+                System.out.println("Ocak ayı için geçerli bir tarih giriniz");
+            }
+        }
+        /*
+        -----Şubat-----
+        1 <= kova <= 19
+        19 < balık <= 28
+         */
+        if(kulAy == 2){
+            if (1<= kulGun && kulGun <=19){
+                System.out.println("Kova burcu");
+            } else if (19 < kulGun && kulGun <= 28) {
+                System.out.println("Balık burcu");
+            }else {
+                System.out.println("Şubat ayı için geçerli bir tarih giriniz");
+            }
+        }
+        /*
+        -----Mart-----
+        1 <= balık <= 20
+        20 < koç <= 31
+        */
+        if(kulAy == 3){
+            if (1<= kulGun && kulGun <=20){
+                System.out.println("Balık burcu");
+            } else if (20 < kulGun && kulGun <= 31) {
+                System.out.println("Koç burcu");
+            }else {
+                System.out.println("Mart ayı için geçerli bir tarih giriniz");
+            }
+        }
+        /*
+        -----Nisan-----
+        1 <= koç <= 20
+        20 < boğa <= 30
+        */
+        if(kulAy == 4){
+            if (1<= kulGun && kulGun <=20){
+                System.out.println("Koç burcu");
+            } else if (20 < kulGun && kulGun <= 30) {
+                System.out.println("Boğa burcu");
+            }else {
+                System.out.println("Nisan ayı için geçerli bir tarih giriniz");
+            }
+        }
+        /*
+        -----Mayıs-----
+        1 <= boğa <= 22
+        22 < ikizler <= 31
+        */
+        if(kulAy == 5){
+            if (1<= kulGun && kulGun <=22){
+                System.out.println("Boğa burcu");
+            } else if (22 < kulGun && kulGun <= 31) {
+                System.out.println("İkizler burcu");
+            }else {
+                System.out.println("Mayıs ayı için geçerli bir tarih giriniz");
+            }
+        }
+        /*
+        -----Haziran-----
+        1 <= ikizler <= 22
+        22 < yengeç <= 30
+        */
+        if(kulAy == 6){
+            if (1<= kulGun && kulGun <=22){
+                System.out.println("İkizler burcu");
+            } else if (22 < kulGun && kulGun <= 30) {
+                System.out.println("Yengeç burcu");
+            }else {
+                System.out.println("Haziran ayı için geçerli bir tarih giriniz");
+            }
+        }
+        /*
+        -----Temmuz-----
+        1 <= yengeç <= 22
+        22 < aslan <= 31
+        */
+        if(kulAy == 7){
+            if (1<= kulGun && kulGun <=22){
+                System.out.println("Yengeç burcu");
+            } else if (22 < kulGun && kulGun <= 31) {
+                System.out.println("Aslan burcu");
+            }else {
+                System.out.println("Temmuz ayı için geçerli bir tarih giriniz");
+            }
+        }
+        /*
+        -----Ağustos-----
+        1 <= aslan <= 22
+        22 < başak <= 31
+        */
+        if(kulAy == 8){
+            if (1<= kulGun && kulGun <=22){
+                System.out.println("Aslan burcu");
+            } else if (22 < kulGun && kulGun <= 31) {
+                System.out.println("Başak burcu");
+            }else {
+                System.out.println("Temmuz ayı için geçerli bir tarih giriniz");
+            }
+        }
+        /*
+        -----Eylül-----
+        1 <= başak <= 22
+        22 < terazi <= 30
+        */
+        if(kulAy == 9){
+            if (1<= kulGun && kulGun <=22){
+                System.out.println("Başak burcu");
+            } else if (22 < kulGun && kulGun <= 30) {
+                System.out.println("Terazi burcu");
+            }else {
+                System.out.println("Eylül ayı için geçerli bir tarih giriniz");
+            }
+        }
+        /*
+        -----Ekim-----
+        1 <= terazi <= 22
+        22 < akrep <= 31
+        */
+        if(kulAy == 10){
+            if (1<= kulGun && kulGun <=22){
+                System.out.println("Terazi burcu");
+            } else if (22 < kulGun && kulGun <= 31) {
+                System.out.println("Akrep burcu");
+            }else {
+                System.out.println("Ekim ayı için geçerli bir tarih giriniz");
+            }
+        }
+        /*
+       -----Kasım-----
+        1 <= akrep <= 21
+        21 < yay <= 30
+       */
+        if(kulAy == 11){
+            if (1<= kulGun && kulGun <=21){
+                System.out.println("Akrep burcu");
+            } else if (21 < kulGun && kulGun <= 31) {
+                System.out.println("Yay burcu");
+            }else {
+                System.out.println("Kasım ayı için geçerli bir tarih giriniz");
+            }
+        }
+        /*
+        -----Aralık-----
+        1 <= yay <= 21
+        21 < Oğlak <= 31
+        */
+        if(kulAy == 12){
+            if (1<= kulGun && kulGun <=21){
+                System.out.println("Yay burcu");
+            } else if (21 < kulGun && kulGun <= 31) {
+                System.out.println("Oğlak burcu");
+            }else {
+                System.out.println("Aralık ayı için geçerli bir tarih giriniz");
+            }
+        }
+    }
+}
