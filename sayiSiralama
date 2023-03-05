@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class sayiSiralama {
+    public static void main(String[] args) {
+        int a, b, c;
+
+        Scanner inp = new Scanner(System.in);
+
+        System.out.println("a sayısını giriniz : ");
+        a = inp.nextInt();
+
+        System.out.println("b sayısını giriniz : ");
+        b = inp.nextInt();
+
+        System.out.println("c sayısını giriniz : ");
+        c = inp.nextInt();
+
+        /* a nın en küçük olduğu durumlar */
+        // a < b < c
+        // a < c < b
+        /* b nın en küçük olduğu durumlar */
+        // b < c < a
+        // b < a < c
+        /* c nın en küçük olduğu durumlar */
+        // c < a < b
+        // c < b < a
+
+        if( (a < b) && (a < c) && (b < c)){
+            System.out.println(" a < b < c");
+        }else if((a < b) && (a < c) && (c < b)){
+            System.out.println( " a < c < b");
+        }
+        if( (b < c) && (b < a) && (c < a)){
+            System.out.println(" b < c < a");
+        }else if((b < c) && (b < a) && (a < c)){
+            System.out.println( " b < a < c");
+        }
+        if( (c < a) && (c < b) && (a < b)){
+            System.out.println(" c < a < b");
+        }else if((c < a) && (c < b) && (b < a)){
+            System.out.println( " c < b < a");
+        }
+    }
+}
