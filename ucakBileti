@@ -1,0 +1,83 @@
+import java.text.Normalizer;
+import java.util.Scanner;
+
+public class ucakBileti {
+    public static void main(String[] args) {
+        int mesafe, yas, yolculukTipi;
+        double normalTutar, yasIndirimi, indirimliTutar, gidisDonusBiletIndirimi, toplamTutar;
+
+        Scanner inp = new Scanner(System.in);
+
+        System.out.println("Mesafeyi Km olarak giriniz : ");
+        mesafe = inp.nextInt();
+
+        if (0 < mesafe) {
+
+            System.out.println("Yaşınızı giriniz : ");
+            yas = inp.nextInt();
+
+            if (0 < yas) {
+
+                System.out.println("Yolculuk tipini \nTek yön için 1  Gidiş-Dönüş için 2 olarak giriniz : ");
+                yolculukTipi = inp.nextInt();
+
+                if (yolculukTipi == 1) {
+                    if (yas < 12) {
+                        normalTutar = mesafe * 0.10;
+                        yasIndirimi = normalTutar * 0.5;
+                        indirimliTutar = normalTutar - yasIndirimi;
+                        System.out.println("Toplam Tutar : " + indirimliTutar);
+                    } else if (12 <= yas && yas <= 24) {
+                        normalTutar = mesafe * 0.10;
+                        yasIndirimi = normalTutar * 0.1;
+                        indirimliTutar = normalTutar - yasIndirimi;
+                        System.out.println("Toplam Tutar : " + indirimliTutar);
+                    } else if (24 < yas && yas <=65) {
+                        normalTutar = mesafe * 0.10;
+                        System.out.println("Toplam Tutar : " + normalTutar);
+                    } else if (65 < yas) {
+                        normalTutar = mesafe * 0.10;
+                        yasIndirimi = normalTutar * 0.3;
+                        indirimliTutar = normalTutar - yasIndirimi;
+                        System.out.println("Toplam Tutar : " + indirimliTutar);
+                    }
+                } else if (yolculukTipi == 2) {
+                    if (yas < 12) {
+                        normalTutar = mesafe * 0.10;
+                        yasIndirimi = normalTutar * 0.5;
+                        indirimliTutar = normalTutar - yasIndirimi;
+                        gidisDonusBiletIndirimi = indirimliTutar * 0.2;
+                        toplamTutar = (indirimliTutar - gidisDonusBiletIndirimi) * 2;
+                        System.out.println("Toplam Tutar : " + toplamTutar);
+                    } else if (12 <= yas && yas <= 24) {
+                        normalTutar = mesafe * 0.10;
+                        yasIndirimi = normalTutar * 0.1;
+                        indirimliTutar = normalTutar - yasIndirimi;
+                        gidisDonusBiletIndirimi = indirimliTutar * 0.2;
+                        toplamTutar = (indirimliTutar - gidisDonusBiletIndirimi) * 2;
+                        System.out.println("Toplam Tutar : " + toplamTutar);
+                    }else if (24 < yas && yas <=65){
+                        normalTutar = mesafe * 0.10;
+                        gidisDonusBiletIndirimi = normalTutar * 0.2;
+                        toplamTutar = gidisDonusBiletIndirimi * 2;
+                        System.out.println("Toplam Tutar : " + toplamTutar);
+                    }else if (65 < yas) {
+                        normalTutar = mesafe * 0.10;
+                        yasIndirimi = normalTutar * 0.3;
+                        indirimliTutar = normalTutar - yasIndirimi;
+                        gidisDonusBiletIndirimi = indirimliTutar * 0.2;
+                        toplamTutar = (indirimliTutar - gidisDonusBiletIndirimi) * 2;
+                        System.out.println("Toplam Tutar : " + toplamTutar);
+                    }
+
+                }else {
+                    System.out.println("Hatalı veri girdiniz!");
+                }
+            }else if (yas < 0) {
+                System.out.println("Geçerli bir yaş girdiniz !");
+            }
+        }else if (mesafe < 0) {
+            System.out.println("Geçerli bir mesafe giriniz!");
+        }
+    }
+}
