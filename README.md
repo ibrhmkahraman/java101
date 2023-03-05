@@ -13,3 +13,4 @@
 ### Koşullu İfadeler ve Kod Blokları ödevleri
 1. [Hesap Makinesi](https://github.com/ibrhmkahraman/java101/blob/main/hesapMakinesi)
 2. [Kullanıcı Girişi](https://github.com/ibrhmkahraman/java101/blob/main/kullaniciGirisi)
+3. [Sınıfı Geçme](https://github.com/ibrhmkahraman/java101/blob/main/sinifiGecme)
