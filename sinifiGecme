@@ -12,13 +12,17 @@ public class sinifiGecme {
         if (mat >= 0 && mat <= 100){
             toplam += mat;
             ders++;
+        }else{
+            System.out.println("girdiğiniz değerin işleme alınabilmesi için 0 ile 100 arasında olmalı!\n");
         }
 
-        System.out.println("fiz notunuzu giriniz");
+        System.out.println("fizik notunuzu giriniz");
         fiz = inp.nextInt();
         if (fiz >= 0 && fiz <= 100){
             toplam += fiz;
             ders++;
+        }else{
+            System.out.println("girdiğiniz değerin işleme alınabilmesi için 0 ile 100 arasında olmalı!\n");
         }
 
         System.out.println("turkce notunuzu giriniz");
@@ -26,6 +30,8 @@ public class sinifiGecme {
         if (turkce >= 0 && turkce <= 100){
             toplam += turkce;
             ders++;
+        }else{
+            System.out.println("girdiğiniz değerin işleme alınabilmesi için 0 ile 100 arasında olmalı!\n");
         }
 
         System.out.println("kimya notunuzu giriniz");
@@ -33,6 +39,8 @@ public class sinifiGecme {
         if (kimya >= 0 && kimya <= 100){
             toplam += kimya;
             ders++;
+        }else{
+            System.out.println("girdiğiniz değerin işleme alınabilmesi için 0 ile 100 arasında olmalı!\n");
         }
 
         System.out.println("muzik notunuzu giriniz");
@@ -40,6 +48,8 @@ public class sinifiGecme {
         if (muzik >= 0 && muzik <= 100){
             toplam += muzik;
             ders++;
+        }else{
+            System.out.println("girdiğiniz değerin işleme alınabilmesi için 0 ile 100 arasında olmalı!\n");
         }
 
         ortalama = toplam / ders;
