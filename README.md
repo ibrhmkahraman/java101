@@ -18,3 +18,5 @@
 5. [Sayı sıralama uygulaması](https://github.com/ibrhmkahraman/java101/blob/main/sayiSiralama)
 6. [Burç bulma uygulaması](https://github.com/ibrhmkahraman/java101/blob/main/burcBulma)
 7. [Uçak bileti hesaplama uygulaması](https://github.com/ibrhmkahraman/java101/blob/main/ucakBileti)
+8. [Çin zodyağı hesaplama uygulaması](https://github.com/ibrhmkahraman/java101/blob/main/cinZodyagi)
+9. [Artık yıl uygulaması](https://github.com/ibrhmkahraman/java101/blob/main/artikYil)
