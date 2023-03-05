@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class sinifiGecme {
+    public static void main(String[] args) {
+        int toplam = 0, ders = 0, mat, fiz, turkce, kimya, muzik ;
+        double ortalama;
+        Scanner inp = new Scanner(System.in);
+
+
+        System.out.println("matematik notunuzu giriniz");
+        mat = inp.nextInt();
+        if (mat >= 0 && mat <= 100){
+            toplam += mat;
+            ders++;
+        }
+
+        System.out.println("fiz notunuzu giriniz");
+        fiz = inp.nextInt();
+        if (fiz >= 0 && fiz <= 100){
+            toplam += fiz;
+            ders++;
+        }
+
+        System.out.println("turkce notunuzu giriniz");
+        turkce = inp.nextInt();
+        if (turkce >= 0 && turkce <= 100){
+            toplam += turkce;
+            ders++;
+        }
+
+        System.out.println("kimya notunuzu giriniz");
+        kimya = inp.nextInt();
+        if (kimya >= 0 && kimya <= 100){
+            toplam += kimya;
+            ders++;
+        }
+
+        System.out.println("muzik notunuzu giriniz");
+        muzik = inp.nextInt();
+        if (muzik >= 0 && muzik <= 100){
+            toplam += muzik;
+            ders++;
+        }
+
+        ortalama = toplam / ders;
+        if(ortalama < 55 ){
+            System.out.println("sınıfta kaldınız.");
+        }else {
+            System.out.println("tebrikler sınıfı geçtiniz");
+
+        }
+        System.out.println("ortalamanız : " + ortalama);
+
+    }
+}
