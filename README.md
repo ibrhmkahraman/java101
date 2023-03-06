@@ -21,4 +21,4 @@
 8. [Çin zodyağı hesaplama uygulaması](https://github.com/ibrhmkahraman/java101/blob/main/cinZodyagi)
 9. [Artık yıl uygulaması](https://github.com/ibrhmkahraman/java101/blob/main/artikYil)
 ### Döngüler
-1. [Çift sayı bulma]()
+1. [Çift sayı bulma](https://github.com/ibrhmkahraman/java101/blob/main/ciftSayiBulma.java)
