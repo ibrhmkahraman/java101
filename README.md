@@ -23,3 +23,4 @@
 ### Döngüler
 1. [Çift sayı bulma](https://github.com/ibrhmkahraman/java101/blob/main/ciftSayiBulma.java)
 2. [Tek sayıların toplamı ödevi](https://github.com/ibrhmkahraman/java101/blob/main/tekSayilarinToplami)
+3. [2nin kuvvetlerini bulan program](https://github.com/ibrhmkahraman/java101/blob/main/ikininKuvvetleri)
