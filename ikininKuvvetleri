@@ -1,0 +1,22 @@
+import java.util.Scanner;
+//Ödev
+//Java döngüler ile girilen sayıya kadar olan 4 ve 5'in kuvvetlerini ekrana yazdıran programı yazıyoruz.
+public class ikininKuvvetleri {
+    public static void main(String[] args) {
+        int n,i;
+        Scanner inp = new Scanner(System.in);
+
+        System.out.println("sayı giriniz : ");
+        n = inp.nextInt();
+
+        System.out.println("girilen sayıya kadar olan 4 ün üsleri");
+        for (i=1; i<= n ; i*=4){
+            System.out.println( i);
+        }
+
+        System.out.println("\ngirilen sayıya kadar olan 5 ün üsleri");
+        for (i=1; i<= n ; i*=5){
+            System.out.println( i);
+        }
+    }
+}
