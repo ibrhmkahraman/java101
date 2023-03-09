@@ -26,3 +26,4 @@
 3. [2nin kuvvetlerini bulan program](https://github.com/ibrhmkahraman/java101/blob/main/ikininKuvvetleri)
 4. [Faktöriyel hesaplama pratiği](https://github.com/ibrhmkahraman/java101/blob/main/faktoriyelHesaplama)
 5. [Üslü Sayılar](https://github.com/ibrhmkahraman/java101/blob/main/usluSayilar)
+6. [Armstrong Sayısı Bulma ödevi(basamak sayıları toplamı)](https://github.com/ibrhmkahraman/java101/blob/main/basamakSayiToplami)
