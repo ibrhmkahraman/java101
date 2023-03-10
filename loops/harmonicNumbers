@@ -1,0 +1,16 @@
+import java.util.Scanner;
+//We will write a program that finds the harmonic series of the number entered in Java.
+//
+//Harmonic Series Formula:
+public class harmonicNumbers {
+    public static void main(String[] args) {
+        Scanner inp = new Scanner(System.in);
+        System.out.println("enter a number : ");
+        int n = inp.nextInt();
+        double result = 0;
+        for(double i = 1; i <= n ; i++){
+            result += (1/i);
+        }
+        System.out.println("total : " + result);
+    }
+}
