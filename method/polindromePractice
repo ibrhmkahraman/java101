@@ -1,14 +1,12 @@
 import java.util.Scanner;
-//====================================================
 //We are making a program in Java that finds whether a number is a "Palindrome Number".
 //
 //What is Palindrome Number?
 //Palindromic numbers are numbers that have the same reading direction when read from both sides.
 //
 //Example: 1, 4, 8, 99, 101, 363, 4004, 9889....
-//====================================================
-public class palindromPractice {
-    static boolean isPalindrom(int  number){
+public class palindromePractice {
+    static boolean isPalindrome(int  number){
         int temp = number, reverseNumber = 0, lastNumber;
         while(temp!=0){
             lastNumber = temp%10;
@@ -24,6 +22,9 @@ public class palindromPractice {
         Scanner inp = new Scanner(System.in);
         System.out.println("enter a number");
         int number = inp.nextInt();
-        System.out.println(isPalindrom(number));
+        if(isPalindrome(number))
+            System.out.println(number + " is Palindrome");
+        else
+            System.out.println( number + " is not Palindrome");
     }
 }
