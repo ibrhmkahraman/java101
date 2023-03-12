@@ -29,3 +29,5 @@
 6. [Armstrong Sayısı Bulma ödevi(basamak sayıları toplamı)](https://github.com/ibrhmkahraman/java101/blob/main/basamakSayiToplami)
 7. [Program to find harmonic numbers](https://github.com/ibrhmkahraman/java101/blob/main/loops/harmonicNumbers)
 8. [Triangle Making with Stars](https://github.com/ibrhmkahraman/java101/blob/main/loops/starsTriangle)
+### Method
+1. [Practice of Palindrome](https://github.com/ibrhmkahraman/java101/blob/main/method/polindromePractice)
